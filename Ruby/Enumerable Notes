@@ -1,0 +1,19 @@
+
+Competencies
+
+Ruby enumerable methods are similar to enumerable methods in many other languages
+Enumberables are often written in block notation
+Blocks are the code between a “do” and an “end”
+Blocks can also be encapsulated in curly braces { } instead of “do” and “end”
+Block parameters are declared in between pipes ||, they are what will be operated upon in the following code
+Enumerable methods include “each”, “reduce”, “select”, “filter”, “reject”, etc. See them all in the Ruby docs
+
+
+
+
+
+Applications
+
+Gain more mastery of algorithms through enumerables
+Understand block notation
+
