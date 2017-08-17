@@ -1,0 +1,33 @@
+Let’s practice some basic enumerables
+
+Select:
+
+array = [ 3, 4, 7, 12 ]
+I want all the numbers greater than 5 
+
+result = array.select do |e|
+  e > 5
+end
+
+grades = [
+	{ name: ‘Dan’, score: 100 },
+	{ name: ‘Mike’, score: 90 },
+	{ name: ‘Jill’, score: 95 },
+	{ name: ‘Helen’, score: 85 },
+	{ name: ‘Jon’, score: 70 },
+	{ name: ‘Hector’, score: 60 },
+	{ name: ‘Betty’, score: 65 }
+]
+Give me all the scores for the honor roll (>= 90)
+result = grades.select do |hash|
+	hash[:score] >= 90
+end
+
+Reduce:
+
+hours = [ 8, 10, 4, 8, 8, 4] 
+
+If I get paid $10/hr, what’s my paycheck?
+
+total_hours = hours.reduce(0) { |sum, num| sum  + num } 
+paycheck = total_hours * 10
